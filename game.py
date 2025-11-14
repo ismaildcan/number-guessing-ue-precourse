@@ -9,7 +9,6 @@ def main():
     while True:
         raw = input("Enter your guess (1–20): ")
 
-        # Validate input
         if not raw.isdigit():
             print("Please enter a valid number.")
             continue
